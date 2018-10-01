@@ -1,0 +1,8 @@
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email revamped.csprojAssemblyReference.cache
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Detail.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.MainForm.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Login.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Mail.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Properties.Resources.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email revamped.csproj.GenerateResource.cache
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email revamped.csproj.CoreCompileInputs.cache

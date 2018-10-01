@@ -1,0 +1,20 @@
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email revamped.cs.csprojAssemblyReference.cache
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Detail.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.MainForm.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Login.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Mail.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Properties.Resources.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email revamped.cs.csproj.GenerateResource.cache
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email revamped.cs.csproj.CoreCompileInputs.cache
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\bin\Debug\Email revamped.exe.config
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\bin\Debug\Email revamped.exe
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\bin\Debug\Email revamped.pdb
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email revamped.exe
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email revamped.pdb
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\bin\Debug\MySql.Data.dll
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\bin\Debug\Google.Protobuf.dll
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\bin\Debug\MySql.Data.xml
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email revamped.cs.csproj.CopyComplete
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Register.resources
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\Document File\Informaticsian\SEM V\Class PPK\Email revamped\Email revamped\obj\Debug\Email_revamped.Compose.resources
