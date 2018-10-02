@@ -33,7 +33,7 @@ namespace Email_revamped
         private void BtnRegister_Click(object sender, EventArgs e)
         {
             if (CheckForm())
-            {
+            {                
                 RegisterMe();
                 this.Close();
             }
@@ -70,14 +70,15 @@ namespace Email_revamped
             }
             catch (Exception ex)
             {
+                Connect.Close();
                 MessageBox.Show(ex.Message);
             }
         }
 
         private Boolean CheckForm()
         {
-            if (!RegisterUsername.Text.Equals("")
-                && !RegisterEmail.Text.Equals("")
+            if (!RegisterEmail.Text.Equals("")
+                && !RegisterUsername.Text.Equals("")
                 && !RegisterPassword.Text.Equals(""))
             {
                 return true;

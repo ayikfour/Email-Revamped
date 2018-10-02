@@ -30,15 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Register));
             this.RegisterPassword = new System.Windows.Forms.TextBox();
-            this.RegisterUsername = new System.Windows.Forms.TextBox();
             this.RegisterEmail = new System.Windows.Forms.TextBox();
-            this.BtnRegister = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.RegisterUsername = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.BtnRegister = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // RegisterPassword
@@ -51,18 +51,7 @@
             this.RegisterPassword.Name = "RegisterPassword";
             this.RegisterPassword.PasswordChar = '●';
             this.RegisterPassword.Size = new System.Drawing.Size(265, 12);
-            this.RegisterPassword.TabIndex = 8;
-            // 
-            // RegisterUsername
-            // 
-            this.RegisterUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(27)))), ((int)(((byte)(154)))));
-            this.RegisterUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.RegisterUsername.Font = new System.Drawing.Font("Muli ExtraBold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RegisterUsername.ForeColor = System.Drawing.Color.White;
-            this.RegisterUsername.Location = new System.Drawing.Point(82, 165);
-            this.RegisterUsername.Name = "RegisterUsername";
-            this.RegisterUsername.Size = new System.Drawing.Size(265, 16);
-            this.RegisterUsername.TabIndex = 7;
+            this.RegisterPassword.TabIndex = 3;
             // 
             // RegisterEmail
             // 
@@ -70,46 +59,21 @@
             this.RegisterEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.RegisterEmail.Font = new System.Drawing.Font("Muli ExtraBold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RegisterEmail.ForeColor = System.Drawing.Color.White;
-            this.RegisterEmail.Location = new System.Drawing.Point(82, 92);
+            this.RegisterEmail.Location = new System.Drawing.Point(82, 165);
             this.RegisterEmail.Name = "RegisterEmail";
             this.RegisterEmail.Size = new System.Drawing.Size(265, 16);
-            this.RegisterEmail.TabIndex = 11;
+            this.RegisterEmail.TabIndex = 2;
             // 
-            // BtnRegister
+            // RegisterUsername
             // 
-            this.BtnRegister.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(0)))), ((int)(((byte)(122)))));
-            this.BtnRegister.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.BtnRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(15)))), ((int)(((byte)(116)))));
-            this.BtnRegister.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.BtnRegister.BorderRadius = 0;
-            this.BtnRegister.ButtonText = "Register";
-            this.BtnRegister.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnRegister.DisabledColor = System.Drawing.Color.Gray;
-            this.BtnRegister.Iconcolor = System.Drawing.Color.Transparent;
-            this.BtnRegister.Iconimage = null;
-            this.BtnRegister.Iconimage_right = null;
-            this.BtnRegister.Iconimage_right_Selected = null;
-            this.BtnRegister.Iconimage_Selected = null;
-            this.BtnRegister.IconMarginLeft = 0;
-            this.BtnRegister.IconMarginRight = 0;
-            this.BtnRegister.IconRightVisible = true;
-            this.BtnRegister.IconRightZoom = 0D;
-            this.BtnRegister.IconVisible = true;
-            this.BtnRegister.IconZoom = 90D;
-            this.BtnRegister.IsTab = false;
-            this.BtnRegister.Location = new System.Drawing.Point(82, 310);
-            this.BtnRegister.Name = "BtnRegister";
-            this.BtnRegister.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(0)))), ((int)(((byte)(122)))));
-            this.BtnRegister.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(0)))), ((int)(((byte)(122)))));
-            this.BtnRegister.OnHoverTextColor = System.Drawing.Color.White;
-            this.BtnRegister.selected = false;
-            this.BtnRegister.Size = new System.Drawing.Size(265, 38);
-            this.BtnRegister.TabIndex = 21;
-            this.BtnRegister.Text = "Register";
-            this.BtnRegister.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.BtnRegister.Textcolor = System.Drawing.Color.White;
-            this.BtnRegister.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRegister.Click += new System.EventHandler(this.BtnRegister_Click);
+            this.RegisterUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(27)))), ((int)(((byte)(154)))));
+            this.RegisterUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.RegisterUsername.Font = new System.Drawing.Font("Muli ExtraBold", 8.999999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterUsername.ForeColor = System.Drawing.Color.White;
+            this.RegisterUsername.Location = new System.Drawing.Point(82, 92);
+            this.RegisterUsername.Name = "RegisterUsername";
+            this.RegisterUsername.Size = new System.Drawing.Size(265, 16);
+            this.RegisterUsername.TabIndex = 1;
             // 
             // label4
             // 
@@ -180,22 +144,36 @@
             this.panel3.Size = new System.Drawing.Size(242, 1);
             this.panel3.TabIndex = 34;
             // 
+            // BtnRegister
+            // 
+            this.BtnRegister.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(78)))), ((int)(((byte)(15)))), ((int)(((byte)(116)))));
+            this.BtnRegister.FlatAppearance.BorderSize = 0;
+            this.BtnRegister.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnRegister.ForeColor = System.Drawing.Color.White;
+            this.BtnRegister.Location = new System.Drawing.Point(82, 317);
+            this.BtnRegister.Name = "BtnRegister";
+            this.BtnRegister.Size = new System.Drawing.Size(244, 38);
+            this.BtnRegister.TabIndex = 4;
+            this.BtnRegister.Text = "Login";
+            this.BtnRegister.UseVisualStyleBackColor = false;
+            this.BtnRegister.Click += new System.EventHandler(this.BtnRegister_Click);
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(27)))), ((int)(((byte)(154)))));
             this.ClientSize = new System.Drawing.Size(419, 428);
+            this.Controls.Add(this.BtnRegister);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.BtnRegister);
-            this.Controls.Add(this.RegisterEmail);
-            this.Controls.Add(this.RegisterPassword);
             this.Controls.Add(this.RegisterUsername);
+            this.Controls.Add(this.RegisterPassword);
+            this.Controls.Add(this.RegisterEmail);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Register";
@@ -207,14 +185,14 @@
 
         #endregion
         private System.Windows.Forms.TextBox RegisterPassword;
-        private System.Windows.Forms.TextBox RegisterUsername;
         private System.Windows.Forms.TextBox RegisterEmail;
-        private Bunifu.Framework.UI.BunifuFlatButton BtnRegister;
+        private System.Windows.Forms.TextBox RegisterUsername;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Button BtnRegister;
     }
 }

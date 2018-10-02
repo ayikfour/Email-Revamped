@@ -35,9 +35,9 @@ namespace Email_revamped
         {            
             if (Authentication())
             {
-                this.Close();
                 main.LogedIn = true;
                 main.Launch();
+                this.Close();                
             }
         }
         
