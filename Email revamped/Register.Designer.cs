@@ -154,7 +154,7 @@
             this.BtnRegister.Name = "BtnRegister";
             this.BtnRegister.Size = new System.Drawing.Size(244, 38);
             this.BtnRegister.TabIndex = 4;
-            this.BtnRegister.Text = "Login";
+            this.BtnRegister.Text = "Register";
             this.BtnRegister.UseVisualStyleBackColor = false;
             this.BtnRegister.Click += new System.EventHandler(this.BtnRegister_Click);
             // 
